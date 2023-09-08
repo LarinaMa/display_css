@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  border: solid red 2px;
+}
+.block {
+  display: block;
+  background: yellow;
+}
+.inline-block {
+  display: inline-block;
+  background: yellow;
+}
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row-reverse; */
+  background: yellow;
+}
+.grid {
+  display: grid;
+  background: yellow;
+  grid-auto-flow: column;
+  /* grid-auto-flow: row; */
+}
